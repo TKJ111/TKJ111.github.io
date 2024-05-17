@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+    color: white;
+    max-width: 500px;
+    margin: auto;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: 18px;
+}
+
+ol {
+    list-style-type: circle;
+}
+
+#formi {
+    border: 2px solid blue;
+    width: fit-content;
+}
+
+#galleria {
+    margin-top: 75px;
+}
+
+#kellonaika {
+    background-color: red;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+#kellonaika p {
+    text-align: center;
+}
+
+#kellonaika h2 {
+    text-decoration: underline;
+}
+
+#kuva {
+    max-width: 350px;
+    max-height: 350px;
+    display: block;
+    margin-top: 10px;
+}
+
+#turhanappi {
+    display: block;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+#submitnappi {
+    color: blue;
+    background-color: red;
+    cursor: pointer;
+}
+
+#submitnappi:hover {
+    color: red;
+    background-color: blue;
+}
+
+button.poistaNappi {
+    margin-left: 15px;
+    background-color: red;
+}
+
+button.poistaNappi:hover {
+    background-color: #b40808;
+}
+
+button.poistaNappi:active {
+    background-color: rgb(184, 3, 3);
+}
+
+li {
+    margin-bottom: 5px;
+}
