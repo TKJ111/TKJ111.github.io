@@ -1,10 +1,46 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <title>Minun GitHub-sivuni</title>
+  <link rel="stylesheet" type="text/css" href="styles.css"/>
 </head>
 <body>
-    <h1>Tervetuloa GitHub-sivulleni!</h1>
-    <p>Tämä on harjoitustehtävä.</p>
+  <h1>Tervetuloa ohjelmoinnin maailmaan!</h1>
+  <p>Tämä on esittelysivu HTML:stä, CSS:stä ja JavaScriptistä.</p>
+
+  <div id="kellonaika">
+    <h2>Kello on nyt</h2>
+    <p id="aika">Pieni hetki</p>
+  </div>
+  
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+  </ul>
+
+  <div id="formi">
+    <input id="nimi" placeholder="Nimi" type="text">
+    <input id="mail" placeholder="Sahkoposti" type="text">
+    <input id="ika" placeholder="Ika" type="number">
+  </div>
+
+  <button id="submitnappi" onclick="submit()">Submitnappi</button>
+  <button id="turhanappi" onclick="painike()">Turhanappi</button>
+
+  <div id="todo">
+    <h2>ToDo lista</h2>
+    <input placeholder="Mitä lisätään listaan?">
+    <button onclick="todolista()">lisää listaan!</button>
+    <ol id="lista">
+    </ol>
+  </div>
+
+  <div id="galleria">
+    <h2>Kuva galleria!</h2>
+    <p>Galleriassa on 5 kuvaa jotka satunnaisesti tulevat klikattaessa (kaikki kuvat on pixabaysta)</p>
+    <button id="kuvanappi" onclick="vaihdakuva()">Klikkaa vaihtaaksesi kuvaa</button>
+    <img id="kuva">
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
